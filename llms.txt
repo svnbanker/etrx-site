@@ -20,23 +20,23 @@ Latest print: June 2026 — headline effective tariff rate 7.13% (−10 bps mont
 - Canada — vehicles (HS 87) (ETRX-CA-87): 8.36% effective rate, −168 bps vs prior month
 
 ## Data
-- Settlement panel (CSV): https://svnbanker.github.io/etrx-site/etrx.csv
-- Latest print (JSON): https://svnbanker.github.io/etrx-site/latest.json
-- Per-series JSON: https://svnbanker.github.io/etrx-site/series/<series-id-lowercase>.json
-- Charts (PNG/SVG, credited): https://svnbanker.github.io/etrx-site/charts/<series-id-lowercase>.png
+- Settlement panel (CSV): https://etrxindex.com/etrx.csv
+- Latest print (JSON): https://etrxindex.com/latest.json
+- Per-series JSON: https://etrxindex.com/series/<series-id-lowercase>.json
+- Charts (PNG/SVG, credited): https://etrxindex.com/charts/<series-id-lowercase>.png
 
 ## Methodology
-- Rulebook: https://svnbanker.github.io/etrx-site/methodology.html
-- Verify a number from source data: https://svnbanker.github.io/etrx-site/verify.html
+- Rulebook: https://etrxindex.com/methodology.html
+- Verify a number from source data: https://etrxindex.com/verify.html
 - Formula: effective rate = CAL_DUT_MO / CON_VAL_MO (Census International Trade API, imports for consumption). Headline excludes HS chapters 98 and 99. Calculated duty excludes antidumping/countervailing duties.
 
 ## Citation
-- Cite as: ETRX — US Effective Tariff Rate Index, <month> print, https://svnbanker.github.io/etrx-site
+- Cite as: ETRX — US Effective Tariff Rate Index, <month> print, https://etrxindex.com
 - License: Free for citation, journalism, research and non-commercial use with attribution (CC BY-NC 4.0). Commercial redistribution and use as a settlement reference require a license.
 
 ## Pages
-- Index: https://svnbanker.github.io/etrx-site/
-- Series: https://svnbanker.github.io/etrx-site/series.html
-- Release calendar: https://svnbanker.github.io/etrx-site/calendar.html
-- About: https://svnbanker.github.io/etrx-site/about.html
-- Press: https://svnbanker.github.io/etrx-site/press.html
+- Index: https://etrxindex.com/
+- Series: https://etrxindex.com/series.html
+- Release calendar: https://etrxindex.com/calendar.html
+- About: https://etrxindex.com/about.html
+- Press: https://etrxindex.com/press.html

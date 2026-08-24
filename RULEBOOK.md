@@ -28,6 +28,8 @@ All series use the same formula (§3) over different slices of US imports for co
 
 New series may be added under §11; existing series definitions are never changed in place.
 
+**Settlement classification.** ETRX-US, ETRX-CN-85, ETRX-CN-84, ETRX-STEEL, ETRX-APPAREL, ETRX-CA-76 and ETRX-EU-87 are **settlement-eligible**: they cover slices with substantial monthly customs value and are the series offered as references for financial products. ETRX-US-INCL is **informational** (published for reconciliation, not for settlement). ETRX-CN-95, ETRX-PHARMA, ETRX-MX-87, ETRX-CA-44 and ETRX-CA-87 are **informational pending review**: they are published on the same rules but cover narrower slices whose concentration and month-to-month behaviour are assessed before any product may reference them. Classification changes are methodology changes under §11.
+
 ## 3. Formulas
 
 For a slice S (origin × chapters) in statistical month M:
@@ -53,7 +55,7 @@ Rates are stored rounded to six decimal places (one hundredth of a basis point).
 
 ## 5. Publication calendar
 
-Census publishes monthly trade data with the FT-900 release, typically 35–40 days after the statistical month, at 8:30 a.m. ET on the scheduled date. ETRX prints within one business day of each release. The engine probes daily, so catch-up releases (multiple months at once, off-schedule dates) print on detection. The site footer and `latest.json` always carry the next expected release date from the official Census schedule.
+Census publishes monthly trade data with the FT-900 release, typically 35–40 days after the statistical month, at 8:30 a.m. ET on the scheduled date. **ETRX publishes no later than 12:00 noon ET on the day of the release** (the engine's scheduled run lands well before that; the print is normally available within two hours of the release). Where a print is not published by that time, the delay and its reason are stated on the site. The engine probes daily, so catch-up releases (several months at once, off-schedule dates) print on detection, under the same noon-ET commitment for the day detected. "Business day" means a day on which US Federal Reserve Banks are open. The site footer and `latest.json` always carry the next expected release date from the official Census schedule.
 
 ## 6. First-print settlement rule
 

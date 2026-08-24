@@ -814,6 +814,6 @@
  "note": "Pharmaceutical products (HS 30), all origins. Historically near-zero duty; the series records any Section 232 pharmaceutical action.",
  "peak": 0.005659,
  "peak_month": "2025-08",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

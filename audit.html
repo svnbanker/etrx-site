@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Audit log — ETRX</title>
+<meta name="description" content="A rules-based monthly index of realized effective US tariff rates by country of origin and HS chapter, from official Census trade data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f4e79'/%3E%3Cpath d='M8 22 13 15 18 18 24 9' stroke='%23fff' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://etrxindex.com/about.html">
+<style>
+:root{color-scheme:light}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#fff;color:#000000;font:16.5px/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,'Helvetica Neue',Arial,sans-serif;
+ -webkit-font-smoothing:antialiased;padding:0 24px}
+main{max-width:1040px;margin:0 auto}
+a{color:#1f4e79;text-decoration:none}
+a:hover{text-decoration:underline}
+nav{max-width:1040px;margin:28px auto 0;display:flex;flex-wrap:wrap;gap:6px 22px;
+ align-items:baseline;font-size:15px}
+nav .mark{font-weight:600;letter-spacing:.02em;color:#000000;margin-right:10px}
+nav a{color:rgba(0,0,0,0.64);font-weight:500}
+nav a.on{color:#000000}
+section{margin:96px 0}
+header.mast{margin:56px 0 0}
+h1{font-size:clamp(28px,4vw,40px);font-weight:600;line-height:1.1;
+ letter-spacing:-0.015em;margin:10px 0 14px}
+.sub{color:rgba(0,0,0,0.64);max-width:62ch}
+.bigrow{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 28px;margin:0 0 26px}
+.bigval{font-size:clamp(56px,9vw,92px);font-weight:600;letter-spacing:-0.02em;
+ line-height:1;font-variant-numeric:tabular-nums}
+.bigmeta{color:rgba(0,0,0,0.64)}
+.delta{font-variant-numeric:tabular-nums}
+h2{font-size:22px;font-weight:600;letter-spacing:-0.01em;margin:0 0 6px}
+h3{font-size:17px;font-weight:600;margin:28px 0 8px}
+h4{font-size:16px;font-weight:600;margin:20px 0 6px}
+.chapsub{color:rgba(0,0,0,0.64);margin:0 0 26px;max-width:62ch}
+figcaption{color:rgba(0,0,0,0.56);font-size:14px;margin-top:10px;max-width:70ch}
+.chartwrap{overflow-x:auto;direction:rtl}
+.chartwrap svg{min-width:640px;display:block;direction:ltr}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{white-space:nowrap}
+th{font-weight:500;color:rgba(0,0,0,0.64);font-size:14px;text-align:right;
+ padding:8px 12px;border-bottom:1px solid rgba(0,0,0,0.10)}
+th:first-child,td:first-child{text-align:left;padding-left:0}
+th:last-child,td:last-child{padding-right:0}
+td{padding:9px 12px;text-align:right}
+tbody tr:nth-child(even){background:rgba(0,0,0,0.03)}
+td.name{color:#000000}
+table.doc th,table.doc td{text-align:left;white-space:normal;vertical-align:top}
+.tblwrap{overflow-x:auto;margin:14px 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+ gap:40px 36px}
+.cell .lbl{font-size:14px;color:rgba(0,0,0,0.64);margin-bottom:8px;min-height:2.6em}
+.cell .lbl a{color:rgba(0,0,0,0.64)}
+.cell .val{display:flex;justify-content:space-between;align-items:baseline;
+ margin-top:6px;font-variant-numeric:tabular-nums}
+.cell .val b{font-weight:600;font-size:18px}
+.cell .val span{color:rgba(0,0,0,0.56);font-size:14px}
+.prose p,.prose li{max-width:68ch;margin:0 0 14px}
+.prose ul{margin:0 0 14px 22px}
+.prose code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14.5px;
+ background:rgba(0,0,0,0.03);padding:1px 5px}
+.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+ font-size:15px;background:rgba(0,0,0,0.03);padding:14px 18px;margin:18px 0;
+ max-width:68ch;overflow-x:auto;white-space:pre-wrap;word-break:break-all}
+.cite{background:rgba(0,0,0,0.03);padding:16px 20px;max-width:68ch;margin:18px 0}
+.cite .k{font-size:14px;color:rgba(0,0,0,0.64);margin-bottom:4px}
+.downloads{margin-top:18px}
+.kv{max-width:68ch}
+.kv div{display:flex;gap:16px;padding:8px 0;border-bottom:1px solid rgba(0,0,0,0.10)}
+.kv div:last-child{border-bottom:0}
+.kv b{flex:0 0 190px;font-weight:500;color:rgba(0,0,0,0.64);font-size:15px}
+.stat{display:flex;flex-wrap:wrap;gap:12px 48px;margin:22px 0}
+.stat div b{display:block;font-size:26px;font-weight:600;letter-spacing:-0.01em;
+ font-variant-numeric:tabular-nums}
+.stat div span{font-size:14px;color:rgba(0,0,0,0.64)}
+footer{margin:120px 0 64px;padding-top:20px;border-top:1px solid rgba(0,0,0,0.10);
+ color:rgba(0,0,0,0.56);font-size:14px}
+footer p{margin:0 0 6px}
+@media(max-width:640px){section{margin:64px 0}header.mast{margin:40px 0 0}
+ .grid{gap:32px 24px}footer{margin-top:80px}.kv b{flex-basis:120px}}
+@media print{body{padding:0}section{margin:40px 0}nav{display:none}}
+</style>
+</head>
+<body>
+<nav><a class=mark href="index.html">ETRX</a><a href="index.html">Index</a><a href="series.html">Series</a><a href="methodology.html">Methodology</a><a href="verify.html">Verify</a><a href="data.html">Data</a><a href="calendar.html">Calendar</a><a href="about.html" class=on>About</a><a href="press.html">Press</a></nav>
+<main>
+
+<header class=mast><h1>Audit log</h1>
+<p class=sub>The administrator's append-only record of every verification, defect, fix and decision
+— including decisions to change nothing. Rulebook §8 and §11 commit to keeping it public; this is
+it, published verbatim from the engine repository on every print.</p></header>
+<section class=prose><h2>AUDIT — append-only</h2>
+<p>Dated log of every bug, verification, and decision — including decisions to change nothing. Newest entries at the bottom.</p>
+<h3>2026-08-23 — repo created; planning-time verification summary</h3>
+<p>Facts verified during planning (live probes + Census documentation), which this build relies on:</p>
+<ul><li>Key required for all data queries; failure mode is HTTP 302 → HTML with header <code>X-DataWebAPI-KeyError</code> (not a JSON error). Engine sets <code>allow_redirects=False</code> and treats it as a distinct FATAL. Metadata endpoints remain keyless.</li><li>HTTP 204 = month not published — used as the new-month probe signal.</li><li><code>CTY_CODE='-'</code> returns a real &quot;TOTAL FOR ALL COUNTRIES&quot; row, tagged <code>SUMMARY_LVL=DET</code> (filtering DET does NOT remove it). Design pins an explicit CTY_CODE on every call; no summing across countries anywhere.</li><li>EU aggregate exists as Census grouping <code>0003</code>; composition changed in-window (Croatia 2013-07, UK 2020-02) — handled in RULEBOOK §10.</li><li>History floor contested in docs (2010 vs 2013) — backfill discovers it empirically.</li><li>Ch. 99 duty (301/232 actions) is attributed to underlying chapters 1–97; Ch. 98 is material and duty-free → headline settles ex-98/99 (RULEBOOK §3).</li><li>FT-900 2026 schedule fetched from census.gov (releases as late as the 29th during catch-up) → daily cron, not a windowed one.</li><li><code>--selftest</code> passes: gate, compute, validate, jump logic, month arithmetic on fixtures.</li></ul>
+<h3>2026-08-23 — day-one key-gated checks: ALL PASS</h3>
+<p>Key activated ~15:45 UTC. Incidentally, the unactivated key earlier today exercised the 302/<code>X-DataWebAPI-KeyError</code> FATAL path against the live API — the failure drill passed for free.</p>
+<ul><li><b>History floor: 2010-01</b> — data present with duty variables populated (2010-01 headline-incl = 1.36%). Backfill covers 2010→present, 18 months more than the guaranteed 2013 floor.</li><li><b>Chapter scan 2026-06: 98 chapter rows, zero non-chapter rows.</b> Ch. 98: $10.6B value, $14M duty (material, ~duty-free — as designed). Ch. 99: $3.2B value, <b>zero</b> calculated duty. Ex-98/99 headline design empirically justified: $13.9B of duty-free value would otherwise dilute the denominator.</li><li><b>Checksum: exact.</b> Scan sums equal the grand-total row to the dollar (0.000% off) on both customs value and calculated duty. The 0.5%/1.0% tolerances stay as revision-timing headroom.</li><li><b>CN-85 cell: exactly 1 row</b> (no RP split); June 2026 rate 19.62%.</li><li><b>EU grouping 0003: exactly 1 row</b> (&quot;EUROPEAN UNION&quot;); EU-87 June 2026 rate 13.92%.</li><li><b><code>LAST_UPDATE</code> returns the string &quot;0&quot;</b> on this endpoint — populated but uninformative; stored as-is, vintage_date carries provenance instead. No code change.</li><li><b>2026-07 probe: HTTP 204</b> — new-month detection confirmed against reality (July data due Sept 3).</li><li>Headline-incl June 2026 = <b>6.81%</b>, consistent with Penn Wharton's ~7.1% (methodology differs slightly; ballpark reconciles).</li><li>Smoke test (3 months from floor): gate 3/3, and the 2010 baseline is economically coherent — apparel ~12% (high-MFN chapter), EU-87 dutiable-value rate 2.52% ≈ the statutory 2.5% car tariff, Mexico/Canada ~0 (NAFTA), pharma 0.0%.</li></ul>
+<p>Backfill battery results + the three manual DataWeb spot-checks: recorded below after the full run.</p>
+<h3>2026-08-23 — backfill attempt 1 aborted by API timeout streak; retries hardened</h3>
+<p>First full backfill FATALed at month ~60 of ~198: three consecutive 60s read-timeouts (~650 calls had succeeded before it). The fail-loud design held: no ledger write, no publish. Diagnosis: transient Census-side flakiness under sustained sequential load; 3 retries × short backoff (~7s total) cannot ride out a multi-minute blip. Fix: shared <code>requests.Session</code> (connection reuse) + retries 3→5 with backoff 2·2^n capped at 45s (~1 min of backoff + up to 5×60s timeouts ≈ 6 min tolerance per call). Also a tooling lesson: the run was invoked as <code>backfill.py | tail</code>, so the shell reported tail's exit 0 and masked Python's exit 1 — background runs are now invoked bare so exit codes are truthful. Selftest re-passed after the change.</p>
+<h3>2026-08-23 — backfill attempt 2 failed identically; diagnosis upgraded to throttling</h3>
+<p>Attempt 2 (session + 5 retries, ~45s backoff cap) died the same way at ~72 months (~800 calls, ~12 min of sustained traffic): five consecutive 60s read-timeouts. Two failures at similar depth is not random flakiness — Census appears to throttle sustained query streams by stalling connections rather than returning 429s. Fixes for attempt 3: (a) timeouts now back off in minutes (15s→60s→240s→300s→300s ≈ 16 min tolerance — a stall is a cooldown signal, not a retry-fast signal); (b) steady pace slowed (<code>POLITE_PAUSE</code> 0.2→0.35s); (c) <code>backfill.py</code> now checkpoints each completed month to <code>backfill_checkpoint.jsonl</code> (gitignored) and resumes from it, so a failure never again costs completed work. Checkpoint deletes itself after a successful ledger write. Selftest re-passed.</p>
+<h3>2026-08-23 — attempt 3: the wall is call-volume, not pacing; supervisor loop deployed</h3>
+<p>Attempt 3 (0.35s pace, minutes-long cooldowns) died at month 63 (~650 calls) after riding out ~20 minutes of stalls — same depth as attempts 1 (~650) and 2 (~800) despite different pacing. Conclusion: an undocumented per-key/per-IP call-volume wall around 600–800 calls per window; cooldowns of minutes don't clear it. The checkpoint held: 62 months banked, reruns resume instantly. Remedy: an auto-resuming supervisor (rerun <code>backfill.py</code> until exit 0, 10-min cooldowns between attempts, max 10) — each window banks another ~60 months. <b>The daily print engine is immune</b> (~10 calls on no-op days, ~40 on print days — two orders of magnitude below the wall). Backfill is a once-ever event; no engine changes warranted beyond what's already in.</p>
+<h3>2026-08-24 — backfill COMPLETE on supervisor attempt 5; battery PASS</h3>
+<p>198 months (2010-01 → 2026-06), 2,574 ledger rows, all stamped <code>backfill</code>. Full report in <code>backfill_report.md</code> (code b66f19d). Verdicts:</p>
+<ul><li><b>Annual reconciliation (ETRX-US-INCL):</b> 2013–2017 1.39–1.52%, 2018 1.82%, 2019 2.65%, 2020 2.76%, 2021 2.96%, 2022 2.78%, 2023 2.35%, 2024 2.36% — every full year inside its band. 2025 <b>7.65%</b>; 2026 H1 7.52%.</li><li><b>Regime checks:</b> China-85 0.74% (2018-01) → 6.79% (2019-12) PASS; China-85 2025 peak <b>46.4%</b> PASS; headline-incl 2025 peak 10.8% PASS.</li><li><b>Parity:</b> 2010-01, 2018-04, 2026-06 re-fetched through the live path — exact match.</li><li><b>Plausibility:</b> no series above 60% in any month.</li><li><b>External cross-check:</b> June 2026 headline ex-98/99 = <b>7.13%</b> vs Penn Wharton's independently modeled ~7.1% — reconciles.</li><li><b>Methodology finding:</b> ETRX-CA-44 (Canadian wood) prints 4.6% despite large softwood-lumber AD/CVD orders → confirms Census calculated duty excludes AD/CVD (assessed separately by CBP). Added as an explicit scope statement to RULEBOOK §3. No code change.</li><li><b>PENDING (manual):</b> the three DataWeb spot-checks listed in the report (2019-06 CN-85 5.80%; 2023-03 US-INCL 2.15%; 2025-09 STEEL 35.43%) — to be pulled by hand in the USITC DataWeb UI and recorded here.</li></ul>
+<h3>2026-08-24 — launch plumbing shipped (plan v2 steps 1–4)</h3>
+<p>Site rebuilt as a static multi-page set from one generator: index, series list + 13 series pages (deep-linkable, each with cite-as block and stats), methodology (rulebook rendered from the versioned markdown), verify (worked example with real dollar inputs + one-URL API reproduction + DataWeb route), data (downloads, dictionary, license), calendar (FT-900 dates + signup slot), about (brand-first, independence statement), press (boilerplate, chart pack), revisions log. Credited standalone chart SVGs for every series, rendered to PNG via rsvg-convert (CI installs librsvg2-bin; local brew). Per-series JSON + <code>llms.txt</code> for machine consumers. <code>/print-day</code> skill (draft-only, ledger-grounded) and <code>policy_events.md</code> seeded with 26 actions 2018→2026 (2026 entries flagged for primary-source verification). Visual verification: index, series, verify, methodology pages screenshot-checked at 1440px; PNG headline chart inspected. 55 artifacts + 13 PNGs per publish; publish remains deterministic from the ledger.</p>
+<h3>2026-08-24 — agent seats, launch package, products, ledger rebuild</h3>
+<ul><li><b>Seats built:</b> <code>scout.py</code> (Google News RSS + <code>--input</code> fallback for sandboxed runs), <code>/newsjack</code>, <code>/citations</code> (+ <code>research/citations.md</code>), <code>cut.py</code> + <code>/cut</code> (HS2/4/6/10), <code>client_index.py</code> + <code>/client-index</code>, <code>/dossier</code>. Cloud routines created: newsjack scout (13/17/21 UTC), citation tracker (Mon 14 UTC). Test run of the scout in the cloud: repo clone + skill execution worked; Google News is blocked by the sandbox egress (403) → the skill now falls back to the agent's web-search tool. The scout also found this weekend's Canada/India actions before any of us did.</li><li><b>Launch package:</b> <code>launch/story.md</code> (the finding: the ruling clawed back 41% of the 2025 increase, 59% retained because Section 122 then Section 301 replaced the IEEPA layers within days; steel/aluminum untouched — 232), <code>launch/pitches.md</code> (exclusive, embargo, Canada, thread, LinkedIn, bios), <code>heatmap.py</code> → <code>docs/charts/heatmap-2026-06.png</code> (12 origins × 24 chapters; China copper 73.6%, aluminum 65.2%).</li><li><b>Products:</b> <code>feed.py</code> (Product 1: all chapters × top-60 origins + EU + all, 2010→, checkpointed; build running), <code>feed/README.md</code>, <code>research/feed_onepager.md</code> (pricing anchors, first-ten targets); <code>client_index.py</code> (Product 2; illustrative retailer mix: 16.32% client vs 10.24% pooled, peak 28.85% May 2025); <code>research/licensing/contract_concept.md</code> + <code>swap_term_sheet.md</code> (Product 3 concepts). Site data page gained a &quot;Data products&quot; section + a public Vietnam all-chapters sample (17,837 rows).</li><li><b>Research:</b> <code>research/press_list.md</code> (46 names, top-10 for the exclusive); <code>research/policy_research_2026-08.md</code> → <code>policy_events.md</code> rebuilt: Feb 24 duty = Section 122 (10%, expired Jul 24, CIT held unlawful May 7, stayed); Section 301 forced-labor duties from Jul 24 (10/12.5%, 232 + USMCA goods exempt); pharma 232 = Proclamation 11020, phase 1 Jul 31 2026 (the 2025-10-01 pharma entry was wrong — consistent with ETRX-PHARMA at 0.16% in June); Section 338 50% on Canada Aug 22 excludes 232 goods and vehicles (only ETRX-CA-44 should register); China fentanyl cut to 10% Nov 2025; 232 metals restructurings Apr 6 / Jun 8; Brazil 301 25% Jul 22; scheduled: drones Sep 3, pharma phase 2 Sep 29, polysilicon Dec 4. All 2026 entries remain <code>verified: no</code> pending the maintainer's primary-source check.</li></ul></section>
+
+<footer>
+<p>Next print: on the Census FT-900 release of 2026-09-03, covering 2026-07. Latest data month: June 2026.</p>
+<p>Generated 2026-08-24 from the print ledger. First prints settle; revisions are logged, never restated.</p>
+<p>Research and commentary. Not investment advice.</p>
+</footer>
+</main>
+</body>
+</html>

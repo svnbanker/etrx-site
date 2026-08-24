@@ -814,6 +814,6 @@
  "note": "All US imports for consumption including chapters 98 and 99. Published for reconciliation with totals-based external measures; not intended for settlement.",
  "peak": 0.108361,
  "peak_month": "2025-10",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

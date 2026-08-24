@@ -814,6 +814,6 @@
  "note": "Vehicles and parts (HS 87) from Mexico. USMCA-compliant trade is duty-free; the series measures how much of the flow pays duty.",
  "peak": 0.127848,
  "peak_month": "2025-05",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

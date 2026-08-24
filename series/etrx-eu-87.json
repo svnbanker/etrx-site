@@ -814,6 +814,6 @@
  "note": "Vehicles and parts (HS 87) from the European Union (Census grouping 0003). The 2.5% MFN car tariff for a decade, then the 2025 actions.",
  "peak": 0.250135,
  "peak_month": "2025-05",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

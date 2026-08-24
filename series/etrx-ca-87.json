@@ -814,6 +814,6 @@
  "note": "Vehicles and parts (HS 87) from Canada.",
  "peak": 0.132623,
  "peak_month": "2025-05",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

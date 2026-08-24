@@ -814,6 +814,6 @@
  "note": "Machinery and mechanical appliances (HS 84) from China, including computers.",
  "peak": 0.509783,
  "peak_month": "2025-05",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

@@ -814,6 +814,6 @@
  "note": "Aluminum and articles of aluminum (HS 76) from Canada. Section 232 in 2018\u201319, then the 2025 actions.",
  "peak": 0.373274,
  "peak_month": "2025-11",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

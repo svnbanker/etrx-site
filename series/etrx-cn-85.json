@@ -814,6 +814,6 @@
  "note": "Electrical machinery, electronics and components (HS 85) from China. The largest single China import chapter; carries the 2018\u201319 Section 301 lists and the 2025 escalations.",
  "peak": 0.464425,
  "peak_month": "2025-05",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

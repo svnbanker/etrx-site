@@ -814,6 +814,6 @@
  "note": "Knitted apparel (HS 61) and woven apparel (HS 62), all origins. A structurally high-MFN chapter \u2014 tariffs here predate every recent action.",
  "peak": 0.32952,
  "peak_month": "2026-01",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

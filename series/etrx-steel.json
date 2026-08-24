@@ -814,6 +814,6 @@
  "note": "Iron and steel (HS 72) and articles of iron or steel (HS 73), all origins. Carries the Section 232 steel actions since 2018.",
  "peak": 0.366646,
  "peak_month": "2026-05",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

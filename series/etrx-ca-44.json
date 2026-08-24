@@ -814,6 +814,6 @@
  "note": "Wood and articles of wood (HS 44) from Canada. Note: antidumping/countervailing duties on softwood lumber are assessed separately and are not part of calculated duty.",
  "peak": 0.045974,
  "peak_month": "2026-06",
- "rulebook": "https://svnbanker.github.io/etrx-site/methodology.html",
+ "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

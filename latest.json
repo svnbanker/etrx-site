@@ -1,0 +1,159 @@
+{
+ "data_month": "2026-06",
+ "disclaimer": "Research and commentary. Not investment advice.",
+ "generated": "2026-08-24",
+ "index": "ETRX",
+ "name": "US Effective Tariff Rate Index",
+ "next_print": {
+  "data_month": "2026-07",
+  "release": "2026-09-03"
+ },
+ "rulebook": "RULEBOOK.md",
+ "series": [
+  {
+   "delta_bps": -10,
+   "duty_free_share": 0.557182,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-US",
+   "label": "United States \u2014 all imports ex 98/99 (headline)",
+   "prior_rate": 0.072295,
+   "rate": 0.071252,
+   "rate_dutiable": 0.160907,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": -8,
+   "duty_free_share": 0.564829,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-US-INCL",
+   "label": "United States \u2014 all imports incl 98/99 (companion)",
+   "prior_rate": 0.068907,
+   "rate": 0.068134,
+   "rate_dutiable": 0.156569,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": -96,
+   "duty_free_share": 0.097754,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-STEEL",
+   "label": "Steel \u2014 all origins (HS 72+73)",
+   "prior_rate": 0.366646,
+   "rate": 0.357074,
+   "rate_dutiable": 0.395762,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": 3,
+   "duty_free_share": 0.983122,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-PHARMA",
+   "label": "Pharmaceuticals \u2014 all origins (HS 30)",
+   "prior_rate": 0.001361,
+   "rate": 0.001626,
+   "rate_dutiable": 0.096317,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": 49,
+   "duty_free_share": 0.163354,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-APPAREL",
+   "label": "Apparel \u2014 all origins (HS 61+62)",
+   "prior_rate": 0.216428,
+   "rate": 0.221377,
+   "rate_dutiable": 0.2646,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": -8,
+   "duty_free_share": 0.280673,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-CN-85",
+   "label": "China \u2014 electronics (HS 85)",
+   "prior_rate": 0.197064,
+   "rate": 0.19623,
+   "rate_dutiable": 0.272797,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": -8,
+   "duty_free_share": 0.253348,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-CN-84",
+   "label": "China \u2014 machinery (HS 84)",
+   "prior_rate": 0.240751,
+   "rate": 0.239903,
+   "rate_dutiable": 0.321304,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": -59,
+   "duty_free_share": 0.016732,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-CN-95",
+   "label": "China \u2014 toys (HS 95)",
+   "prior_rate": 0.125251,
+   "rate": 0.11934,
+   "rate_dutiable": 0.12137,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": -101,
+   "duty_free_share": 0.016929,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-EU-87",
+   "label": "European Union \u2014 vehicles (HS 87)",
+   "prior_rate": 0.14939,
+   "rate": 0.139243,
+   "rate_dutiable": 0.14164,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": -43,
+   "duty_free_share": 0.29468,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-MX-87",
+   "label": "Mexico \u2014 vehicles (HS 87)",
+   "prior_rate": 0.098304,
+   "rate": 0.093979,
+   "rate_dutiable": 0.133243,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": -74,
+   "duty_free_share": 0.291509,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-CA-76",
+   "label": "Canada \u2014 aluminum (HS 76)",
+   "prior_rate": 0.340563,
+   "rate": 0.333157,
+   "rate_dutiable": 0.470235,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": 15,
+   "duty_free_share": 0.538862,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-CA-44",
+   "label": "Canada \u2014 wood (HS 44)",
+   "prior_rate": 0.044476,
+   "rate": 0.045974,
+   "rate_dutiable": 0.099697,
+   "vintage_note": "backfill"
+  },
+  {
+   "delta_bps": -168,
+   "duty_free_share": 0.25508,
+   "first_print_vintage": "2026-08-24",
+   "id": "ETRX-CA-87",
+   "label": "Canada \u2014 vehicles (HS 87)",
+   "prior_rate": 0.100373,
+   "rate": 0.083568,
+   "rate_dutiable": 0.112184,
+   "vintage_note": "backfill"
+  }
+ ],
+ "settlement": "first print settles; revisions are logged, never restated",
+ "source": "US Census Bureau, International Trade API (imports for consumption)"
+}

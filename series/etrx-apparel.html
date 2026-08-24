@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Apparel — all origins (HS 61+62) — ETRX</title>
+<meta name="description" content="Apparel — all origins (HS 61+62): effective US tariff rate 22.14% in June 2026. Monthly history since 2010.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f4e79'/%3E%3Cpath d='M8 22 13 15 18 18 24 9' stroke='%23fff' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://svnbanker.github.io/etrx-site/series.html">
+<style>
+:root{color-scheme:light}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#fff;color:#000000;font:16.5px/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,'Helvetica Neue',Arial,sans-serif;
+ -webkit-font-smoothing:antialiased;padding:0 24px}
+main{max-width:1040px;margin:0 auto}
+a{color:#1f4e79;text-decoration:none}
+a:hover{text-decoration:underline}
+nav{max-width:1040px;margin:28px auto 0;display:flex;flex-wrap:wrap;gap:6px 22px;
+ align-items:baseline;font-size:15px}
+nav .mark{font-weight:600;letter-spacing:.02em;color:#000000;margin-right:10px}
+nav a{color:rgba(0,0,0,0.64);font-weight:500}
+nav a.on{color:#000000}
+section{margin:96px 0}
+header.mast{margin:56px 0 0}
+h1{font-size:clamp(28px,4vw,40px);font-weight:600;line-height:1.1;
+ letter-spacing:-0.015em;margin:10px 0 14px}
+.sub{color:rgba(0,0,0,0.64);max-width:62ch}
+.bigrow{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 28px;margin:0 0 26px}
+.bigval{font-size:clamp(56px,9vw,92px);font-weight:600;letter-spacing:-0.02em;
+ line-height:1;font-variant-numeric:tabular-nums}
+.bigmeta{color:rgba(0,0,0,0.64)}
+.delta{font-variant-numeric:tabular-nums}
+h2{font-size:22px;font-weight:600;letter-spacing:-0.01em;margin:0 0 6px}
+h3{font-size:17px;font-weight:600;margin:28px 0 8px}
+h4{font-size:16px;font-weight:600;margin:20px 0 6px}
+.chapsub{color:rgba(0,0,0,0.64);margin:0 0 26px;max-width:62ch}
+figcaption{color:rgba(0,0,0,0.56);font-size:14px;margin-top:10px;max-width:70ch}
+.chartwrap{overflow-x:auto;direction:rtl}
+.chartwrap svg{min-width:640px;display:block;direction:ltr}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{white-space:nowrap}
+th{font-weight:500;color:rgba(0,0,0,0.64);font-size:14px;text-align:right;
+ padding:8px 12px;border-bottom:1px solid rgba(0,0,0,0.10)}
+th:first-child,td:first-child{text-align:left;padding-left:0}
+th:last-child,td:last-child{padding-right:0}
+td{padding:9px 12px;text-align:right}
+tbody tr:nth-child(even){background:rgba(0,0,0,0.03)}
+td.name{color:#000000}
+table.doc th,table.doc td{text-align:left;white-space:normal;vertical-align:top}
+.tblwrap{overflow-x:auto;margin:14px 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+ gap:40px 36px}
+.cell .lbl{font-size:14px;color:rgba(0,0,0,0.64);margin-bottom:8px;min-height:2.6em}
+.cell .lbl a{color:rgba(0,0,0,0.64)}
+.cell .val{display:flex;justify-content:space-between;align-items:baseline;
+ margin-top:6px;font-variant-numeric:tabular-nums}
+.cell .val b{font-weight:600;font-size:18px}
+.cell .val span{color:rgba(0,0,0,0.56);font-size:14px}
+.prose p,.prose li{max-width:68ch;margin:0 0 14px}
+.prose ul{margin:0 0 14px 22px}
+.prose code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14.5px;
+ background:rgba(0,0,0,0.03);padding:1px 5px}
+.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+ font-size:15px;background:rgba(0,0,0,0.03);padding:14px 18px;margin:18px 0;
+ max-width:68ch;overflow-x:auto;white-space:pre-wrap;word-break:break-all}
+.cite{background:rgba(0,0,0,0.03);padding:16px 20px;max-width:68ch;margin:18px 0}
+.cite .k{font-size:14px;color:rgba(0,0,0,0.64);margin-bottom:4px}
+.downloads{margin-top:18px}
+.kv{max-width:68ch}
+.kv div{display:flex;gap:16px;padding:8px 0;border-bottom:1px solid rgba(0,0,0,0.10)}
+.kv div:last-child{border-bottom:0}
+.kv b{flex:0 0 190px;font-weight:500;color:rgba(0,0,0,0.64);font-size:15px}
+.stat{display:flex;flex-wrap:wrap;gap:12px 48px;margin:22px 0}
+.stat div b{display:block;font-size:26px;font-weight:600;letter-spacing:-0.01em;
+ font-variant-numeric:tabular-nums}
+.stat div span{font-size:14px;color:rgba(0,0,0,0.64)}
+footer{margin:120px 0 64px;padding-top:20px;border-top:1px solid rgba(0,0,0,0.10);
+ color:rgba(0,0,0,0.56);font-size:14px}
+footer p{margin:0 0 6px}
+@media(max-width:640px){section{margin:64px 0}header.mast{margin:40px 0 0}
+ .grid{gap:32px 24px}footer{margin-top:80px}.kv b{flex-basis:120px}}
+@media print{body{padding:0}section{margin:40px 0}nav{display:none}}
+</style>
+</head>
+<body>
+<nav><a class=mark href="../index.html">ETRX</a><a href="../index.html">Index</a><a href="../series.html" class=on>Series</a><a href="../methodology.html">Methodology</a><a href="../verify.html">Verify</a><a href="../data.html">Data</a><a href="../calendar.html">Calendar</a><a href="../about.html">About</a><a href="../press.html">Press</a></nav>
+<main>
+
+<header class=mast>
+<p class=sub><a href="../series.html">Series</a> · ETRX-APPAREL</p>
+<h1>Apparel — all origins (HS 61+62)</h1>
+<p class=sub>Knitted apparel (HS 61) and woven apparel (HS 62), all origins. A structurally high-MFN chapter — tariffs here predate every recent action.</p>
+</header>
+<section>
+<div class=stat>
+<div><b>22.14%</b><span>effective rate, June 2026</span></div>
+<div><b>+49 bps</b><span>month over month</span></div>
+<div><b>26.46%</b><span>rate on dutiable value</span></div>
+<div><b>16.3%</b><span>duty-free share</span></div>
+<div><b>$6.37B</b><span>customs value, June 2026</span></div>
+<div><b>$1.41B</b><span>calculated duty, June 2026</span></div>
+</div>
+<figure><div class=chartwrap><svg viewBox="0 0 1040 380" width="100%" role="img" aria-label="Effective tariff rate, monthly"><line x1="8" y1="352.0" x2="976" y2="352.0" stroke="rgba(0,0,0,0.08)" stroke-width="1"/><text x="984" y="356.4" font-size="12.5" fill="rgba(0,0,0,0.56)">0%</text><line x1="8" y1="182.0" x2="976" y2="182.0" stroke="rgba(0,0,0,0.08)" stroke-width="1"/><text x="984" y="186.4" font-size="12.5" fill="rgba(0,0,0,0.56)">20%</text><line x1="8" y1="12.0" x2="976" y2="12.0" stroke="rgba(0,0,0,0.08)" stroke-width="1"/><text x="984" y="16.4" font-size="12.5" fill="rgba(0,0,0,0.56)">40%</text><text x="8.0" y="370" font-size="12.5" fill="rgba(0,0,0,0.56)">2010</text><text x="125.9" y="370" font-size="12.5" fill="rgba(0,0,0,0.56)">2012</text><text x="243.9" y="370" font-size="12.5" fill="rgba(0,0,0,0.56)">2014</text><text x="361.8" y="370" font-size="12.5" fill="rgba(0,0,0,0.56)">2016</text><text x="479.7" y="370" font-size="12.5" fill="rgba(0,0,0,0.56)">2018</text><text x="597.6" y="370" font-size="12.5" fill="rgba(0,0,0,0.56)">2020</text><text x="715.6" y="370" font-size="12.5" fill="rgba(0,0,0,0.56)">2022</text><text x="833.5" y="370" font-size="12.5" fill="rgba(0,0,0,0.56)">2024</text><text x="951.4" y="370" font-size="12.5" fill="rgba(0,0,0,0.56)">2026</text><polyline points="8.0,238.6 12.9,243.0 17.8,249.2 22.7,245.5 27.7,245.3 32.6,243.2 37.5,241.8 42.4,239.5 47.3,240.1 52.2,239.8 57.1,242.4 62.1,244.5 67.0,237.8 71.9,242.3 76.8,249.7 81.7,244.8 86.6,244.3 91.5,244.1 96.4,240.4 101.4,239.4 106.3,239.8 111.2,239.4 116.1,242.5 121.0,241.7 125.9,235.5 130.8,243.3 135.8,246.3 140.7,241.2 145.6,244.6 150.5,241.7 155.4,238.6 160.3,239.7 165.2,239.4 170.2,237.9 175.1,241.5 180.0,239.5 184.9,233.7 189.8,237.6 194.7,244.6 199.6,240.9 204.5,242.5 209.5,239.6 214.4,236.7 219.3,237.1 224.2,238.0 229.1,237.0 234.0,238.7 238.9,239.7 243.9,233.0 248.8,239.4 253.7,242.8 258.6,241.3 263.5,241.6 268.4,241.4 273.3,238.9 278.3,237.5 283.2,238.6 288.1,237.2 293.0,239.6 297.9,240.2 302.8,232.7 307.7,238.6 312.6,238.6 317.6,238.9 322.5,240.3 327.4,237.6 332.3,237.4 337.2,233.9 342.1,236.2 347.0,235.0 352.0,236.4 356.9,237.0 361.8,230.1 366.7,234.2 371.6,241.0 376.5,239.1 381.4,238.4 386.4,238.2 391.3,234.6 396.2,233.5 401.1,234.6 406.0,231.5 410.9,235.0 415.8,234.8 420.8,227.5 425.7,234.1 430.6,239.7 435.5,235.7 440.4,240.4 445.3,237.6 450.2,234.2 455.1,234.7 460.1,235.1 465.0,233.9 469.9,237.0 474.8,236.1 479.7,230.6 484.6,234.0 489.5,240.9 494.5,236.6 499.4,239.1 504.3,237.1 509.2,235.1 514.1,237.0 519.0,235.8 523.9,232.4 528.9,236.7 533.8,237.8 538.7,230.3 543.6,235.5 548.5,241.4 553.4,239.8 558.3,240.1 563.2,239.6 568.2,238.6 573.1,236.7 578.0,206.0 582.9,206.2 587.8,211.6 592.7,213.0 597.6,204.4 602.6,223.9 607.5,237.7 612.4,224.1 617.3,243.1 622.2,246.9 627.1,239.5 632.0,235.2 637.0,231.3 641.9,227.8 646.8,229.8 651.7,234.1 656.6,226.6 661.5,230.4 666.4,230.6 671.4,232.0 676.3,232.5 681.2,230.6 686.1,228.6 691.0,224.6 695.9,224.0 700.8,224.2 705.7,224.8 710.7,225.3 715.6,218.9 720.5,223.2 725.4,224.4 730.3,226.6 735.2,226.5 740.1,224.9 745.1,222.8 750.0,223.1 754.9,225.1 759.8,227.4 764.7,228.9 769.6,228.5 774.5,222.5 779.5,228.0 784.4,233.7 789.3,229.1 794.2,230.5 799.1,229.4 804.0,224.2 808.9,226.0 813.8,224.5 818.8,224.4 823.7,227.7 828.6,227.8 833.5,220.1 838.4,228.6 843.3,233.4 848.2,234.6 853.2,233.5 858.1,229.5 863.0,225.8 867.9,224.6 872.8,223.3 877.7,225.9 882.6,226.8 887.6,226.7 892.5,223.6 897.4,225.1 902.3,215.9 907.2,180.9 912.1,148.6 917.0,136.2 921.9,127.1 926.9,120.5 931.8,93.5 936.7,73.4 941.6,83.7 946.5,84.0 951.4,71.9 956.3,112.1 961.3,170.3 966.2,166.4 971.1,168.0 976.0,163.8" fill="none" stroke="#000000" stroke-width="1.75" stroke-linejoin="round"/><circle cx="976.0" cy="163.8" r="3.5" fill="#1f4e79"/></svg></div>
+<figcaption>Apparel — all origins (HS 61+62), 2010–2026, monthly. Peak 32.95% (January 2026); low 12.04% (March 2011).
+<a href="../charts/etrx-apparel.png">Download chart (PNG)</a> · <a href="../charts/etrx-apparel.svg">SVG</a></figcaption></figure>
+</section>
+<section class=prose>
+<h2>Definition</h2>
+<p>Formula: calculated duties ÷ customs value of imports for consumption, dollars
+summed before dividing. Source: US Census Bureau International Trade API, monthly
+imports (HS), variables <code>CAL_DUT_MO</code>, <code>CON_VAL_MO</code>, <code>DUT_VAL_MO</code>.</p>
+<div class=cite><div class=k>Cite as</div>ETRX — US Effective Tariff Rate Index, Apparel — all origins (HS 61+62) (ETRX-APPAREL), June 2026 print. https://svnbanker.github.io/etrx-site<div class=k style="margin-top:10px">License</div>Free for citation, journalism, research and non-commercial use with attribution (CC BY-NC 4.0). Commercial redistribution and use as a settlement reference require a license.</div>
+<p class=downloads><a href="../series/etrx-apparel.json">This series (JSON)</a> ·
+<a href="../etrx.csv">Full panel (CSV)</a> · <a href="../methodology.html">Methodology</a> ·
+<a href="../verify.html">Verify a number</a></p>
+</section>
+
+<footer>
+<p>Next print: on the Census FT-900 release of 2026-09-03, covering 2026-07. Latest data month: June 2026.</p>
+<p>Generated 2026-08-24 from the print ledger. First prints settle; revisions are logged, never restated.</p>
+<p>Research and commentary. Not investment advice.</p>
+</footer>
+</main>
+</body>
+</html>

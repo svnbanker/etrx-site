@@ -1,0 +1,42 @@
+# ETRX — US Effective Tariff Rate Index
+
+> A rules-based monthly index of the realized effective US tariff rate — calculated duties as a share of the customs value of US imports for consumption — by country of origin and HS chapter, computed from official US Census Bureau trade data. First print settles; revisions are logged, never restated. Free to cite with attribution.
+
+Latest print: June 2026 — headline effective tariff rate 7.13% (−10 bps month over month). Next print: 2026-09-03.
+
+## Latest values (June 2026)
+- United States — all imports ex 98/99 (headline) (ETRX-US): 7.13% effective rate, −10 bps vs prior month
+- United States — all imports incl 98/99 (companion) (ETRX-US-INCL): 6.81% effective rate, −8 bps vs prior month
+- Steel — all origins (HS 72+73) (ETRX-STEEL): 35.71% effective rate, −96 bps vs prior month
+- Pharmaceuticals — all origins (HS 30) (ETRX-PHARMA): 0.16% effective rate, +3 bps vs prior month
+- Apparel — all origins (HS 61+62) (ETRX-APPAREL): 22.14% effective rate, +49 bps vs prior month
+- China — electronics (HS 85) (ETRX-CN-85): 19.62% effective rate, −8 bps vs prior month
+- China — machinery (HS 84) (ETRX-CN-84): 23.99% effective rate, −8 bps vs prior month
+- China — toys (HS 95) (ETRX-CN-95): 11.93% effective rate, −59 bps vs prior month
+- European Union — vehicles (HS 87) (ETRX-EU-87): 13.92% effective rate, −101 bps vs prior month
+- Mexico — vehicles (HS 87) (ETRX-MX-87): 9.40% effective rate, −43 bps vs prior month
+- Canada — aluminum (HS 76) (ETRX-CA-76): 33.32% effective rate, −74 bps vs prior month
+- Canada — wood (HS 44) (ETRX-CA-44): 4.60% effective rate, +15 bps vs prior month
+- Canada — vehicles (HS 87) (ETRX-CA-87): 8.36% effective rate, −168 bps vs prior month
+
+## Data
+- Settlement panel (CSV): https://svnbanker.github.io/etrx-site/etrx.csv
+- Latest print (JSON): https://svnbanker.github.io/etrx-site/latest.json
+- Per-series JSON: https://svnbanker.github.io/etrx-site/series/<series-id-lowercase>.json
+- Charts (PNG/SVG, credited): https://svnbanker.github.io/etrx-site/charts/<series-id-lowercase>.png
+
+## Methodology
+- Rulebook: https://svnbanker.github.io/etrx-site/methodology.html
+- Verify a number from source data: https://svnbanker.github.io/etrx-site/verify.html
+- Formula: effective rate = CAL_DUT_MO / CON_VAL_MO (Census International Trade API, imports for consumption). Headline excludes HS chapters 98 and 99. Calculated duty excludes antidumping/countervailing duties.
+
+## Citation
+- Cite as: ETRX — US Effective Tariff Rate Index, <month> print, https://svnbanker.github.io/etrx-site
+- License: Free for citation, journalism, research and non-commercial use with attribution (CC BY-NC 4.0). Commercial redistribution and use as a settlement reference require a license.
+
+## Pages
+- Index: https://svnbanker.github.io/etrx-site/
+- Series: https://svnbanker.github.io/etrx-site/series.html
+- Release calendar: https://svnbanker.github.io/etrx-site/calendar.html
+- About: https://svnbanker.github.io/etrx-site/about.html
+- Press: https://svnbanker.github.io/etrx-site/press.html

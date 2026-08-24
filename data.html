@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Data — ETRX</title>
+<meta name="description" content="A rules-based monthly index of realized effective US tariff rates by country of origin and HS chapter, from official Census trade data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f4e79'/%3E%3Cpath d='M8 22 13 15 18 18 24 9' stroke='%23fff' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://svnbanker.github.io/etrx-site/data.html">
+<style>
+:root{color-scheme:light}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#fff;color:#000000;font:16.5px/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,'Helvetica Neue',Arial,sans-serif;
+ -webkit-font-smoothing:antialiased;padding:0 24px}
+main{max-width:1040px;margin:0 auto}
+a{color:#1f4e79;text-decoration:none}
+a:hover{text-decoration:underline}
+nav{max-width:1040px;margin:28px auto 0;display:flex;flex-wrap:wrap;gap:6px 22px;
+ align-items:baseline;font-size:15px}
+nav .mark{font-weight:600;letter-spacing:.02em;color:#000000;margin-right:10px}
+nav a{color:rgba(0,0,0,0.64);font-weight:500}
+nav a.on{color:#000000}
+section{margin:96px 0}
+header.mast{margin:56px 0 0}
+h1{font-size:clamp(28px,4vw,40px);font-weight:600;line-height:1.1;
+ letter-spacing:-0.015em;margin:10px 0 14px}
+.sub{color:rgba(0,0,0,0.64);max-width:62ch}
+.bigrow{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 28px;margin:0 0 26px}
+.bigval{font-size:clamp(56px,9vw,92px);font-weight:600;letter-spacing:-0.02em;
+ line-height:1;font-variant-numeric:tabular-nums}
+.bigmeta{color:rgba(0,0,0,0.64)}
+.delta{font-variant-numeric:tabular-nums}
+h2{font-size:22px;font-weight:600;letter-spacing:-0.01em;margin:0 0 6px}
+h3{font-size:17px;font-weight:600;margin:28px 0 8px}
+h4{font-size:16px;font-weight:600;margin:20px 0 6px}
+.chapsub{color:rgba(0,0,0,0.64);margin:0 0 26px;max-width:62ch}
+figcaption{color:rgba(0,0,0,0.56);font-size:14px;margin-top:10px;max-width:70ch}
+.chartwrap{overflow-x:auto;direction:rtl}
+.chartwrap svg{min-width:640px;display:block;direction:ltr}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{white-space:nowrap}
+th{font-weight:500;color:rgba(0,0,0,0.64);font-size:14px;text-align:right;
+ padding:8px 12px;border-bottom:1px solid rgba(0,0,0,0.10)}
+th:first-child,td:first-child{text-align:left;padding-left:0}
+th:last-child,td:last-child{padding-right:0}
+td{padding:9px 12px;text-align:right}
+tbody tr:nth-child(even){background:rgba(0,0,0,0.03)}
+td.name{color:#000000}
+table.doc th,table.doc td{text-align:left;white-space:normal;vertical-align:top}
+.tblwrap{overflow-x:auto;margin:14px 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+ gap:40px 36px}
+.cell .lbl{font-size:14px;color:rgba(0,0,0,0.64);margin-bottom:8px;min-height:2.6em}
+.cell .lbl a{color:rgba(0,0,0,0.64)}
+.cell .val{display:flex;justify-content:space-between;align-items:baseline;
+ margin-top:6px;font-variant-numeric:tabular-nums}
+.cell .val b{font-weight:600;font-size:18px}
+.cell .val span{color:rgba(0,0,0,0.56);font-size:14px}
+.prose p,.prose li{max-width:68ch;margin:0 0 14px}
+.prose ul{margin:0 0 14px 22px}
+.prose code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14.5px;
+ background:rgba(0,0,0,0.03);padding:1px 5px}
+.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+ font-size:15px;background:rgba(0,0,0,0.03);padding:14px 18px;margin:18px 0;
+ max-width:68ch;overflow-x:auto;white-space:pre-wrap;word-break:break-all}
+.cite{background:rgba(0,0,0,0.03);padding:16px 20px;max-width:68ch;margin:18px 0}
+.cite .k{font-size:14px;color:rgba(0,0,0,0.64);margin-bottom:4px}
+.downloads{margin-top:18px}
+.kv{max-width:68ch}
+.kv div{display:flex;gap:16px;padding:8px 0;border-bottom:1px solid rgba(0,0,0,0.10)}
+.kv div:last-child{border-bottom:0}
+.kv b{flex:0 0 190px;font-weight:500;color:rgba(0,0,0,0.64);font-size:15px}
+.stat{display:flex;flex-wrap:wrap;gap:12px 48px;margin:22px 0}
+.stat div b{display:block;font-size:26px;font-weight:600;letter-spacing:-0.01em;
+ font-variant-numeric:tabular-nums}
+.stat div span{font-size:14px;color:rgba(0,0,0,0.64)}
+footer{margin:120px 0 64px;padding-top:20px;border-top:1px solid rgba(0,0,0,0.10);
+ color:rgba(0,0,0,0.56);font-size:14px}
+footer p{margin:0 0 6px}
+@media(max-width:640px){section{margin:64px 0}header.mast{margin:40px 0 0}
+ .grid{gap:32px 24px}footer{margin-top:80px}.kv b{flex-basis:120px}}
+@media print{body{padding:0}section{margin:40px 0}nav{display:none}}
+</style>
+</head>
+<body>
+<nav><a class=mark href="index.html">ETRX</a><a href="index.html">Index</a><a href="series.html">Series</a><a href="methodology.html">Methodology</a><a href="verify.html">Verify</a><a href="data.html" class=on>Data</a><a href="calendar.html">Calendar</a><a href="about.html">About</a><a href="press.html">Press</a></nav>
+<main>
+
+<header class=mast><h1>Data</h1>
+<p class=sub>Everything ETRX publishes, at stable URLs, free with attribution. Files are
+regenerated on every print; URLs never change.</p></header>
+<section class=prose>
+<h2>Downloads</h2>
+<div class=kv>
+<div><b>Settlement panel</b><span><a href="etrx.csv">etrx.csv</a> — every series, every month, first prints only.</span></div>
+<div><b>Latest print</b><span><a href="latest.json">latest.json</a> — all series for the latest month, with prior values and deltas.</span></div>
+<div><b>Revisions</b><span><a href="revisions.csv">revisions.csv</a> — later vintages of settled months (see <a href="revisions.html">log</a>).</span></div>
+<div><b>Per-series JSON</b><span><a href="series/etrx-us.json">ETRX-US</a> · <a href="series/etrx-us-incl.json">ETRX-US-INCL</a> · <a href="series/etrx-steel.json">ETRX-STEEL</a> · <a href="series/etrx-pharma.json">ETRX-PHARMA</a> · <a href="series/etrx-apparel.json">ETRX-APPAREL</a> · <a href="series/etrx-cn-85.json">ETRX-CN-85</a> · <a href="series/etrx-cn-84.json">ETRX-CN-84</a> · <a href="series/etrx-cn-95.json">ETRX-CN-95</a> · <a href="series/etrx-eu-87.json">ETRX-EU-87</a> · <a href="series/etrx-mx-87.json">ETRX-MX-87</a> · <a href="series/etrx-ca-76.json">ETRX-CA-76</a> · <a href="series/etrx-ca-44.json">ETRX-CA-44</a> · <a href="series/etrx-ca-87.json">ETRX-CA-87</a></span></div>
+<div><b>Charts</b><span><a href="charts/etrx-us.png">Headline PNG</a> · every series has PNG and SVG at <code>charts/&lt;series-id&gt;.png</code></span></div>
+<div><b>Rulebook</b><span><a href="RULEBOOK.md">RULEBOOK.md</a> · <a href="methodology.html">rendered</a></span></div>
+<div><b>For AI assistants</b><span><a href="llms.txt">llms.txt</a></span></div>
+</div>
+<h2 style="margin-top:56px">Data dictionary</h2>
+<div class=kv><div><b>data_month</b><span>Statistical month, YYYY-MM.</span></div><div><b>series_id</b><span>Series identifier, e.g. ETRX-CN-85.</span></div><div><b>rate</b><span>Effective rate: calculated duty ÷ customs value. Decimal (0.0713 = 7.13%), six places.</span></div><div><b>rate_dutiable</b><span>Calculated duty ÷ dutiable value. Empty when dutiable value is zero.</span></div><div><b>duty_free_share</b><span>1 − dutiable value ÷ customs value.</span></div><div><b>con_val</b><span>Customs value of imports for consumption, US dollars.</span></div><div><b>cal_dut</b><span>Calculated duty, US dollars.</span></div><div><b>dut_val</b><span>Dutiable value, US dollars.</span></div><div><b>vintage_date</b><span>Date this value was printed (UTC).</span></div><div><b>vintage_note</b><span>backfill (built retroactively; embeds Census revisions), live (first print on release), or revision.</span></div></div>
+<h2 style="margin-top:56px">License</h2>
+<p>Free for citation, journalism, research and non-commercial use with attribution (CC BY-NC 4.0). Commercial redistribution and use as a settlement reference require a license. Attribution: “ETRX — US Effective Tariff Rate Index, svnbanker.github.io/etrx-site”. Charts may be
+republished as-is; the credit line is part of the image.</p>
+<p>A press and licensing contact address will be published at launch.</p>
+</section>
+
+<footer>
+<p>Next print: on the Census FT-900 release of 2026-09-03, covering 2026-07. Latest data month: June 2026.</p>
+<p>Generated 2026-08-24 from the print ledger. First prints settle; revisions are logged, never restated.</p>
+<p>Research and commentary. Not investment advice.</p>
+</footer>
+</main>
+</body>
+</html>

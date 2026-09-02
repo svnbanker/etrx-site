@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://etrxindex.com/sitemap.xml

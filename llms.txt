@@ -10,6 +10,15 @@ Latest print: July 2026 — headline effective tariff rate 6.73% (−39 bps mont
 - Steel — all origins (HS 72+73) (ETRX-STEEL): 36.15% effective rate, +45 bps vs prior month
 - Pharmaceuticals — all origins (HS 30) (ETRX-PHARMA): 0.16% effective rate, −1 bps vs prior month
 - Apparel — all origins (HS 61+62) (ETRX-APPAREL): 21.46% effective rate, −67 bps vs prior month
+- China — all chapters (ETRX-CN): 23.07% effective rate, −40 bps vs prior month
+- Canada — all chapters (ETRX-CA): 2.97% effective rate, −3 bps vs prior month
+- European Union — all chapters (ETRX-EU): 7.77% effective rate, −43 bps vs prior month
+- Mexico — all chapters (ETRX-MX): 2.96% effective rate, −54 bps vs prior month
+- Vietnam — all chapters (ETRX-VN): 6.29% effective rate, −26 bps vs prior month
+- Japan — all chapters (ETRX-JP): 10.95% effective rate, +69 bps vs prior month
+- Korea, South — all chapters (ETRX-KR): 7.74% effective rate, +8 bps vs prior month
+- Taiwan — all chapters (ETRX-TW): 2.02% effective rate, −82 bps vs prior month
+- India — all chapters (ETRX-IN): 8.33% effective rate, −93 bps vs prior month
 - China — electronics (HS 85) (ETRX-CN-85): 20.91% effective rate, +129 bps vs prior month
 - China — machinery (HS 84) (ETRX-CN-84): 24.08% effective rate, +9 bps vs prior month
 - China — toys (HS 95) (ETRX-CN-95): 10.87% effective rate, −106 bps vs prior month

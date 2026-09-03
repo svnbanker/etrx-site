@@ -66,6 +66,105 @@
    "vintage_note": "live"
   },
   {
+   "delta_bps": -40,
+   "duty_free_share": 0.172602,
+   "first_print_vintage": "2026-09-03",
+   "id": "ETRX-CN",
+   "label": "China \u2014 all chapters",
+   "prior_rate": 0.234714,
+   "rate": 0.230704,
+   "rate_dutiable": 0.278831,
+   "vintage_note": "live"
+  },
+  {
+   "delta_bps": -3,
+   "duty_free_share": 0.773914,
+   "first_print_vintage": "2026-09-03",
+   "id": "ETRX-CA",
+   "label": "Canada \u2014 all chapters",
+   "prior_rate": 0.030002,
+   "rate": 0.029668,
+   "rate_dutiable": 0.131225,
+   "vintage_note": "live"
+  },
+  {
+   "delta_bps": -43,
+   "duty_free_share": 0.411819,
+   "first_print_vintage": "2026-09-03",
+   "id": "ETRX-EU",
+   "label": "European Union \u2014 all chapters",
+   "prior_rate": 0.082079,
+   "rate": 0.077732,
+   "rate_dutiable": 0.132156,
+   "vintage_note": "live"
+  },
+  {
+   "delta_bps": -54,
+   "duty_free_share": 0.800909,
+   "first_print_vintage": "2026-09-03",
+   "id": "ETRX-MX",
+   "label": "Mexico \u2014 all chapters",
+   "prior_rate": 0.034982,
+   "rate": 0.029577,
+   "rate_dutiable": 0.148557,
+   "vintage_note": "live"
+  },
+  {
+   "delta_bps": -26,
+   "duty_free_share": 0.636068,
+   "first_print_vintage": "2026-09-03",
+   "id": "ETRX-VN",
+   "label": "Vietnam \u2014 all chapters",
+   "prior_rate": 0.065463,
+   "rate": 0.062867,
+   "rate_dutiable": 0.172744,
+   "vintage_note": "live"
+  },
+  {
+   "delta_bps": 69,
+   "duty_free_share": 0.189646,
+   "first_print_vintage": "2026-09-03",
+   "id": "ETRX-JP",
+   "label": "Japan \u2014 all chapters",
+   "prior_rate": 0.102539,
+   "rate": 0.109485,
+   "rate_dutiable": 0.135107,
+   "vintage_note": "live"
+  },
+  {
+   "delta_bps": 8,
+   "duty_free_share": 0.515235,
+   "first_print_vintage": "2026-09-03",
+   "id": "ETRX-KR",
+   "label": "Korea, South \u2014 all chapters",
+   "prior_rate": 0.076562,
+   "rate": 0.077365,
+   "rate_dutiable": 0.159594,
+   "vintage_note": "live"
+  },
+  {
+   "delta_bps": -82,
+   "duty_free_share": 0.872675,
+   "first_print_vintage": "2026-09-03",
+   "id": "ETRX-TW",
+   "label": "Taiwan \u2014 all chapters",
+   "prior_rate": 0.028363,
+   "rate": 0.020187,
+   "rate_dutiable": 0.158544,
+   "vintage_note": "live"
+  },
+  {
+   "delta_bps": -93,
+   "duty_free_share": 0.487204,
+   "first_print_vintage": "2026-09-03",
+   "id": "ETRX-IN",
+   "label": "India \u2014 all chapters",
+   "prior_rate": 0.092583,
+   "rate": 0.083309,
+   "rate_dutiable": 0.162461,
+   "vintage_note": "live"
+  },
+  {
    "delta_bps": 129,
    "duty_free_share": 0.220683,
    "first_print_vintage": "2026-09-03",

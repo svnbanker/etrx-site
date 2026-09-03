@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.357074
+  ],
+  [
+   "2026-07",
+   0.361529
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "Steel \u2014 all origins (HS 72+73)",
  "latest": {
-  "delta_bps": -96,
-  "duty_free_share": 0.097754,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.366646,
-  "rate": 0.357074,
-  "rate_dutiable": 0.395762,
-  "vintage_note": "backfill"
+  "delta_bps": 45,
+  "duty_free_share": 0.113143,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.357074,
+  "rate": 0.361529,
+  "rate_dutiable": 0.407652,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Iron and steel (HS 72) and articles of iron or steel (HS 73), all origins. Carries the Section 232 steel actions since 2018.",

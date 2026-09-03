@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.139243
+  ],
+  [
+   "2026-07",
+   0.138026
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "European Union \u2014 vehicles (HS 87)",
  "latest": {
-  "delta_bps": -101,
-  "duty_free_share": 0.016929,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.14939,
-  "rate": 0.139243,
-  "rate_dutiable": 0.14164,
-  "vintage_note": "backfill"
+  "delta_bps": -12,
+  "duty_free_share": 0.026342,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.139243,
+  "rate": 0.138026,
+  "rate_dutiable": 0.14176,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Vehicles and parts (HS 87) from the European Union (Census grouping 0003). The 2.5% MFN car tariff for a decade, then the 2025 actions.",

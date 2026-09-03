@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.068134
+  ],
+  [
+   "2026-07",
+   0.06452
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "United States \u2014 all imports incl 98/99 (companion)",
  "latest": {
-  "delta_bps": -8,
-  "duty_free_share": 0.564829,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.068907,
-  "rate": 0.068134,
-  "rate_dutiable": 0.156569,
-  "vintage_note": "backfill"
+  "delta_bps": -36,
+  "duty_free_share": 0.594203,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.068134,
+  "rate": 0.06452,
+  "rate_dutiable": 0.158996,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "All US imports for consumption including chapters 98 and 99. Published for reconciliation with totals-based external measures; not intended for settlement.",

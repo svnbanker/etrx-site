@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.239903
+  ],
+  [
+   "2026-07",
+   0.240762
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "China \u2014 machinery (HS 84)",
  "latest": {
-  "delta_bps": -8,
-  "duty_free_share": 0.253348,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.240751,
-  "rate": 0.239903,
-  "rate_dutiable": 0.321304,
-  "vintage_note": "backfill"
+  "delta_bps": 9,
+  "duty_free_share": 0.244282,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.239903,
+  "rate": 0.240762,
+  "rate_dutiable": 0.318587,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Machinery and mechanical appliances (HS 84) from China, including computers.",

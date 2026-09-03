@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.19623
+  ],
+  [
+   "2026-07",
+   0.209148
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "China \u2014 electronics (HS 85)",
  "latest": {
-  "delta_bps": -8,
-  "duty_free_share": 0.280673,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.197064,
-  "rate": 0.19623,
-  "rate_dutiable": 0.272797,
-  "vintage_note": "backfill"
+  "delta_bps": 129,
+  "duty_free_share": 0.220683,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.19623,
+  "rate": 0.209148,
+  "rate_dutiable": 0.268373,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Electrical machinery, electronics and components (HS 85) from China. The largest single China import chapter; carries the 2018\u201319 Section 301 lists and the 2025 escalations.",

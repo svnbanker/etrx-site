@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.221377
+  ],
+  [
+   "2026-07",
+   0.214634
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "Apparel \u2014 all origins (HS 61+62)",
  "latest": {
-  "delta_bps": 49,
-  "duty_free_share": 0.163354,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.216428,
-  "rate": 0.221377,
-  "rate_dutiable": 0.2646,
-  "vintage_note": "backfill"
+  "delta_bps": -67,
+  "duty_free_share": 0.176761,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.221377,
+  "rate": 0.214634,
+  "rate_dutiable": 0.260719,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Knitted apparel (HS 61) and woven apparel (HS 62), all origins. A structurally high-MFN chapter \u2014 tariffs here predate every recent action.",

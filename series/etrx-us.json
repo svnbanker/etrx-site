@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.071252
+  ],
+  [
+   "2026-07",
+   0.067308
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "United States \u2014 all imports ex 98/99 (headline)",
  "latest": {
-  "delta_bps": -10,
-  "duty_free_share": 0.557182,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.072295,
-  "rate": 0.071252,
-  "rate_dutiable": 0.160907,
-  "vintage_note": "backfill"
+  "delta_bps": -39,
+  "duty_free_share": 0.588833,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.071252,
+  "rate": 0.067308,
+  "rate_dutiable": 0.163699,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "All US imports for consumption from all origins, excluding HS chapters 98 and 99 (special-provision imports such as returned goods). The settlement headline.",

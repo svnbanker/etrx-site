@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.083568
+  ],
+  [
+   "2026-07",
+   0.0793
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "Canada \u2014 vehicles (HS 87)",
  "latest": {
-  "delta_bps": -168,
-  "duty_free_share": 0.25508,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.100373,
-  "rate": 0.083568,
-  "rate_dutiable": 0.112184,
-  "vintage_note": "backfill"
+  "delta_bps": -43,
+  "duty_free_share": 0.289736,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.083568,
+  "rate": 0.0793,
+  "rate_dutiable": 0.111648,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Vehicles and parts (HS 87) from Canada.",

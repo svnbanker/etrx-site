@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.001626
+  ],
+  [
+   "2026-07",
+   0.001556
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "Pharmaceuticals \u2014 all origins (HS 30)",
  "latest": {
-  "delta_bps": 3,
-  "duty_free_share": 0.983122,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.001361,
-  "rate": 0.001626,
-  "rate_dutiable": 0.096317,
-  "vintage_note": "backfill"
+  "delta_bps": -1,
+  "duty_free_share": 0.984459,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.001626,
+  "rate": 0.001556,
+  "rate_dutiable": 0.100152,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Pharmaceutical products (HS 30), all origins. Historically near-zero duty; the series records any Section 232 pharmaceutical action.",

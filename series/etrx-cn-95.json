@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.11934
+  ],
+  [
+   "2026-07",
+   0.108714
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "China \u2014 toys (HS 95)",
  "latest": {
-  "delta_bps": -59,
-  "duty_free_share": 0.016732,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.125251,
-  "rate": 0.11934,
-  "rate_dutiable": 0.12137,
-  "vintage_note": "backfill"
+  "delta_bps": -106,
+  "duty_free_share": 0.108037,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.11934,
+  "rate": 0.108714,
+  "rate_dutiable": 0.121881,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Toys, games and sports equipment (HS 95) from China. Duty-free before 2019; a clean marker of List 4A and later actions.",

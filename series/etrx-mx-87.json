@@ -1,5 +1,5 @@
 {
- "data_month": "2026-06",
+ "data_month": "2026-07",
  "history": [
   [
    "2010-01",
@@ -792,6 +792,10 @@
   [
    "2026-06",
    0.093979
+  ],
+  [
+   "2026-07",
+   0.087269
   ]
  ],
  "history_columns": [
@@ -802,13 +806,13 @@
  "index": "ETRX",
  "label": "Mexico \u2014 vehicles (HS 87)",
  "latest": {
-  "delta_bps": -43,
-  "duty_free_share": 0.29468,
-  "first_print_vintage": "2026-08-24",
-  "prior_rate": 0.098304,
-  "rate": 0.093979,
-  "rate_dutiable": 0.133243,
-  "vintage_note": "backfill"
+  "delta_bps": -67,
+  "duty_free_share": 0.305335,
+  "first_print_vintage": "2026-09-03",
+  "prior_rate": 0.093979,
+  "rate": 0.087269,
+  "rate_dutiable": 0.125628,
+  "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Vehicles and parts (HS 87) from Mexico. USMCA-compliant trade is duty-free; the series measures how much of the flow pays duty.",

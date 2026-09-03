@@ -101,6 +101,6 @@ ETRX is administered with the IOSCO Principles for Financial Benchmarks (July 20
 
 ## 13. License, contact, disclaimer
 
-- Index values, the public panel, and this rulebook are free to cite with attribution ("ETRX — US Effective Tariff Rate Index").
+- The published index series, their charts, and this rulebook are licensed CC BY 4.0: free to use, cite and republish, including in commercial research, with attribution ("ETRX — US Effective Tariff Rate Index"). *(Amended 2026-09-03: an earlier non-commercial clause was removed because it made citation in bank and broker research ambiguous.)*
 - Commercial redistribution of the data feed, and any use of the index as the settlement reference of a financial product, require a license from the administrator.
 - Research and commentary. Not investment advice. Values are derived from official US government data; the administrator does not warrant fitness for any particular purpose.

@@ -1,5 +1,5 @@
 {
- "data_month": "2026-07",
+ "data_month": "2026-08",
  "history": [
   [
    "2010-01",
@@ -796,6 +796,10 @@
   [
    "2026-07",
    0.109485
+  ],
+  [
+   "2026-08",
+   0.111466
   ]
  ],
  "history_columns": [
@@ -806,12 +810,12 @@
  "index": "ETRX",
  "label": "Japan \u2014 all chapters",
  "latest": {
-  "delta_bps": 69,
-  "duty_free_share": 0.189646,
-  "first_print_vintage": "2026-09-03",
-  "prior_rate": 0.102539,
-  "rate": 0.109485,
-  "rate_dutiable": 0.135107,
+  "delta_bps": 20,
+  "duty_free_share": 0.181216,
+  "first_print_vintage": "2026-10-06",
+  "prior_rate": 0.109485,
+  "rate": 0.111466,
+  "rate_dutiable": 0.136136,
   "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",

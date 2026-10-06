@@ -1,5 +1,5 @@
 {
- "data_month": "2026-07",
+ "data_month": "2026-08",
  "history": [
   [
    "2010-01",
@@ -796,6 +796,10 @@
   [
    "2026-07",
    0.020187
+  ],
+  [
+   "2026-08",
+   0.029811
   ]
  ],
  "history_columns": [
@@ -806,12 +810,12 @@
  "index": "ETRX",
  "label": "Taiwan \u2014 all chapters",
  "latest": {
-  "delta_bps": -82,
-  "duty_free_share": 0.872675,
-  "first_print_vintage": "2026-09-03",
-  "prior_rate": 0.028363,
-  "rate": 0.020187,
-  "rate_dutiable": 0.158544,
+  "delta_bps": 96,
+  "duty_free_share": 0.816525,
+  "first_print_vintage": "2026-10-06",
+  "prior_rate": 0.020187,
+  "rate": 0.029811,
+  "rate_dutiable": 0.162478,
   "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",

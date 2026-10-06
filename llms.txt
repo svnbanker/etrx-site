@@ -2,31 +2,31 @@
 
 > A rules-based monthly index of the realized effective US tariff rate — calculated duties as a share of the customs value of US imports for consumption — by country of origin and HS chapter, computed from official US Census Bureau trade data. First print settles; revisions are logged, never restated. Free to cite with attribution.
 
-Latest print: July 2026 — headline effective tariff rate 6.73% (−39 bps month over month). Next print: 2026-10-06.
+Latest print: August 2026 — headline effective tariff rate 7.16% (+43 bps month over month). Next print: 2026-11-04.
 
-## Latest values (July 2026)
-- United States — all imports ex 98/99 (headline) (ETRX-US): 6.73% effective rate, −39 bps vs prior month
-- United States — all imports incl 98/99 (companion) (ETRX-US-INCL): 6.45% effective rate, −36 bps vs prior month
-- Steel — all origins (HS 72+73) (ETRX-STEEL): 36.15% effective rate, +45 bps vs prior month
-- Pharmaceuticals — all origins (HS 30) (ETRX-PHARMA): 0.16% effective rate, −1 bps vs prior month
-- Apparel — all origins (HS 61+62) (ETRX-APPAREL): 21.46% effective rate, −67 bps vs prior month
-- China — all chapters (ETRX-CN): 23.07% effective rate, −40 bps vs prior month
-- Canada — all chapters (ETRX-CA): 2.97% effective rate, −3 bps vs prior month
-- European Union — all chapters (ETRX-EU): 7.77% effective rate, −43 bps vs prior month
-- Mexico — all chapters (ETRX-MX): 2.96% effective rate, −54 bps vs prior month
-- Vietnam — all chapters (ETRX-VN): 6.29% effective rate, −26 bps vs prior month
-- Japan — all chapters (ETRX-JP): 10.95% effective rate, +69 bps vs prior month
-- Korea, South — all chapters (ETRX-KR): 7.74% effective rate, +8 bps vs prior month
-- Taiwan — all chapters (ETRX-TW): 2.02% effective rate, −82 bps vs prior month
-- India — all chapters (ETRX-IN): 8.33% effective rate, −93 bps vs prior month
-- China — electronics (HS 85) (ETRX-CN-85): 20.91% effective rate, +129 bps vs prior month
-- China — machinery (HS 84) (ETRX-CN-84): 24.08% effective rate, +9 bps vs prior month
-- China — toys (HS 95) (ETRX-CN-95): 10.87% effective rate, −106 bps vs prior month
-- European Union — vehicles (HS 87) (ETRX-EU-87): 13.80% effective rate, −12 bps vs prior month
-- Mexico — vehicles (HS 87) (ETRX-MX-87): 8.73% effective rate, −67 bps vs prior month
-- Canada — aluminum (HS 76) (ETRX-CA-76): 32.70% effective rate, −62 bps vs prior month
-- Canada — wood (HS 44) (ETRX-CA-44): 4.57% effective rate, −3 bps vs prior month
-- Canada — vehicles (HS 87) (ETRX-CA-87): 7.93% effective rate, −43 bps vs prior month
+## Latest values (August 2026)
+- United States — all imports ex 98/99 (headline) (ETRX-US): 7.16% effective rate, +43 bps vs prior month
+- United States — all imports incl 98/99 (companion) (ETRX-US-INCL): 6.87% effective rate, +42 bps vs prior month
+- Steel — all origins (HS 72+73) (ETRX-STEEL): 35.87% effective rate, −28 bps vs prior month
+- Pharmaceuticals — all origins (HS 30) (ETRX-PHARMA): 0.24% effective rate, +9 bps vs prior month
+- Apparel — all origins (HS 61+62) (ETRX-APPAREL): 22.70% effective rate, +123 bps vs prior month
+- China — all chapters (ETRX-CN): 24.55% effective rate, +148 bps vs prior month
+- Canada — all chapters (ETRX-CA): 3.33% effective rate, +36 bps vs prior month
+- European Union — all chapters (ETRX-EU): 7.53% effective rate, −24 bps vs prior month
+- Mexico — all chapters (ETRX-MX): 3.27% effective rate, +31 bps vs prior month
+- Vietnam — all chapters (ETRX-VN): 7.22% effective rate, +93 bps vs prior month
+- Japan — all chapters (ETRX-JP): 11.15% effective rate, +20 bps vs prior month
+- Korea, South — all chapters (ETRX-KR): 7.70% effective rate, −4 bps vs prior month
+- Taiwan — all chapters (ETRX-TW): 2.98% effective rate, +96 bps vs prior month
+- India — all chapters (ETRX-IN): 8.45% effective rate, +12 bps vs prior month
+- China — electronics (HS 85) (ETRX-CN-85): 21.41% effective rate, +50 bps vs prior month
+- China — machinery (HS 84) (ETRX-CN-84): 24.07% effective rate, −1 bps vs prior month
+- China — toys (HS 95) (ETRX-CN-95): 13.41% effective rate, +253 bps vs prior month
+- European Union — vehicles (HS 87) (ETRX-EU-87): 13.92% effective rate, +12 bps vs prior month
+- Mexico — vehicles (HS 87) (ETRX-MX-87): 9.67% effective rate, +94 bps vs prior month
+- Canada — aluminum (HS 76) (ETRX-CA-76): 32.45% effective rate, −25 bps vs prior month
+- Canada — wood (HS 44) (ETRX-CA-44): 4.92% effective rate, +35 bps vs prior month
+- Canada — vehicles (HS 87) (ETRX-CA-87): 8.91% effective rate, +98 bps vs prior month
 
 ## Data
 - Settlement panel (CSV): https://etrxindex.com/etrx.csv

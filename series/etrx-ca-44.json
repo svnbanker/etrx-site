@@ -1,5 +1,5 @@
 {
- "data_month": "2026-07",
+ "data_month": "2026-08",
  "history": [
   [
    "2010-01",
@@ -796,6 +796,10 @@
   [
    "2026-07",
    0.045698
+  ],
+  [
+   "2026-08",
+   0.049248
   ]
  ],
  "history_columns": [
@@ -806,18 +810,18 @@
  "index": "ETRX",
  "label": "Canada \u2014 wood (HS 44)",
  "latest": {
-  "delta_bps": -3,
-  "duty_free_share": 0.542297,
-  "first_print_vintage": "2026-09-03",
-  "prior_rate": 0.045974,
-  "rate": 0.045698,
-  "rate_dutiable": 0.099841,
+  "delta_bps": 35,
+  "duty_free_share": 0.553527,
+  "first_print_vintage": "2026-10-06",
+  "prior_rate": 0.045698,
+  "rate": 0.049248,
+  "rate_dutiable": 0.110304,
   "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
  "note": "Wood and articles of wood (HS 44) from Canada. Note: antidumping/countervailing duties on softwood lumber are assessed separately and are not part of calculated duty.",
- "peak": 0.045974,
- "peak_month": "2026-06",
+ "peak": 0.049248,
+ "peak_month": "2026-08",
  "rulebook": "https://etrxindex.com/methodology.html",
  "source": "US Census Bureau, International Trade API (imports for consumption)"
 }

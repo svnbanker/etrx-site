@@ -1,5 +1,5 @@
 {
- "data_month": "2026-07",
+ "data_month": "2026-08",
  "history": [
   [
    "2010-01",
@@ -796,6 +796,10 @@
   [
    "2026-07",
    0.361529
+  ],
+  [
+   "2026-08",
+   0.3587
   ]
  ],
  "history_columns": [
@@ -806,12 +810,12 @@
  "index": "ETRX",
  "label": "Steel \u2014 all origins (HS 72+73)",
  "latest": {
-  "delta_bps": 45,
-  "duty_free_share": 0.113143,
-  "first_print_vintage": "2026-09-03",
-  "prior_rate": 0.357074,
-  "rate": 0.361529,
-  "rate_dutiable": 0.407652,
+  "delta_bps": -28,
+  "duty_free_share": 0.134918,
+  "first_print_vintage": "2026-10-06",
+  "prior_rate": 0.361529,
+  "rate": 0.3587,
+  "rate_dutiable": 0.414642,
   "vintage_note": "live"
  },
  "license": "The published series and charts are free to use, cite and republish, including commercially, with attribution to ETRX (CC BY 4.0). The full panel, vintage feed, API and any use as a settlement reference require a license.",
